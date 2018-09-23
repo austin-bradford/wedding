@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html {
+    background-color: #f9f7ec;
+}
+
+
+header {
+    background-color:  #f7ded5;
+    width: 100%;
+    color: navy;
+    font-family: 'Dancing Script', cursive;
+    height: 100px;
+    border-bottom: 3px solid navy;
+}
+
+.logo {
+    margin: 0;
+    padding: 21px;
+    font-size: 3em;
+    float: left;
+}
+
+.tag-line {
+    margin: 0;
+    padding: 47px 21px 21px;
+    text-align: left;
+    margin: auto 0;
+    font-size: 1.5em;
+    float: left;
+}
+
+.watermark {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100px;
+    opacity: .1;
+    
+}
+
+.main-img {
+    width: 100%;
+    border-bottom: 3px solid navy;
+}
+
+.gallery {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: navy;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.church,
+.ceremony,
+.celebration {
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    background-color: #f7ded5;
+    border: 2px solid navy;
+}
+
+.church:hover,
+.ceremony:hover,
+.celebration:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.container {
+    padding: 2px 16px;
+    color: navy;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #f7ded5;
+    margin-top: 70px;
+    border-top: 2px solid navy;
+    text-align: center;
+    color: navy;
+
+}
